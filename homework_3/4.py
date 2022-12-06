@@ -25,10 +25,10 @@ while True:
         print('Коэффициент должен быть комплексным числом!')
 
 if a == 0 and b == 0 and c == 0:
-    print("Ответ - любое число")
+    print('Ответ - любое число')
 else:
     if a == 0 and b == 0:
-        print("Корней нет")
+        print('Корней нет')
     else:
         if a == 0 and c == 0:
             print(f'x = 0')
